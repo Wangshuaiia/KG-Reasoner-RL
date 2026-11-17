@@ -1,0 +1,31 @@
+# --- core (KG tool, data construction, SFT, local GRPO, evaluation, reward server) ---
+torch
+transformers>=4.46.3
+fastapi
+uvicorn
+requests
+SPARQLWrapper           # Freebase SPARQL backend
+pytest
+
+# --- multi-GPU RL training (OpenRLHF-RAG, scripts/grpo_train.sh) ---
+accelerate
+bitsandbytes
+datasets
+deepspeed==0.15.0
+einops
+flash-attn==2.7.0.post2
+jsonlines
+loralib
+optimum
+packaging
+peft
+ray[default]
+tensorboard
+torchmetrics
+tqdm
+transformers==4.46.3
+transformers_stream_generator
+wandb
+wheel
+vllm==0.6.5
+ninja

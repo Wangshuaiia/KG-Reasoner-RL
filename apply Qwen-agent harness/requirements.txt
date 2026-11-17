@@ -1,0 +1,8 @@
+# Local Apple Silicon harness; separate from the CUDA training environment.
+# Versions recorded in the copied experiment environment.
+mlx==0.32.4
+mlx-lm==0.32.2
+qwen-agent==0.0.34
+# Imported by the recorded Qwen-Agent version but not declared there.
+soundfile
+python-dateutil
